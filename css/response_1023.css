@@ -1,0 +1,182 @@
+@media print, (max-width: 1023px) {
+ 
+
+    header .mob_menu_btn {
+        display: flex;
+        flex-shrink: 0;
+        order: 1;
+    }
+
+    header .menu {
+        position: fixed;
+        z-index: 107;
+        top: 110px;
+        left: 0;
+        display: flex;
+        overflow: auto;
+        width: 100%;
+        height: calc(100% - 110px);
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 50px 0px 20px;
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+        background: #fff;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;        
+    }
+    header .menu.show {
+        transform: translateX(0);
+    }
+    .menu_open header .mob_menu_btn{
+        display: none;
+    }
+    .menu_open header .close_btn {
+        display: flex;
+    }
+    header .menu .item {
+        width: 100%;
+    }
+    header .menu .item + .item {
+        margin-left: 0;
+    }
+    .mob_menu_btn span {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 2px;
+        transition: background .2s linear;
+        background: #000; 
+    }
+    .mob_menu_btn span:before, 
+    .mob_menu_btn span:after {
+        position: absolute;
+        top: -8px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        content: '';
+        transition: .2s linear;
+        background: #000;
+    }
+    .mob_menu_btn span:after {
+        top: 8px;
+    }
+    .mob_menu_btn.active span {
+        background: transparent;
+    }
+    .mob_menu_btn.active span:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+    .mob_menu_btn.active span:after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    header .logo-mob {
+        display: block;
+        margin-right: 20px;  
+        padding-right: 10px;
+        border-right: 1px solid #EFEFEF;     
+    }
+    .header-phone {
+        margin-right: 30px;
+        margin-left: auto;
+        color: #4B4B4B;
+    }
+    header .menu .cont {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    header .menu .item {
+        margin-right: 0;
+    }
+    header .menu .item a {
+        display: block;
+        text-align: start;
+    }
+    .header-phone_mob {
+        display: block;
+        padding: 23px 0 24px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #262626;
+        text-decoration: none;
+    }
+    header .menu .first-section_btn-mob {
+        display: flex;
+        width: 335px;
+    }
+    header .menu .item > a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;        
+        color: #000000;
+        padding: 10px 0;
+        
+    }
+    header .menu .item {
+        border-top: 1px solid #B1B1B1;
+    }
+    header .menu .item:first-child {
+        border-top: 1px solid transparent;
+    }
+
+    .header_contacts .header_contact-email {
+        display: none;
+    }
+    .header_contacts .header_contact-mesenger {
+        display: none;
+    }
+    .header_contacts-mob {
+        display: block;
+        margin-top: 30px;
+    }
+    .header_contacts-mob .header_contact img {
+        display: block;
+        margin-right: 5px;
+    }
+    .header_contacts-mob .header_contact:nth-child(2) img {
+        margin-right: 9px;
+    }
+    .header_contacts-mob .header_contact {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;        
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .header_contacts-mob .header_contact .header_contact-box {
+        display: flex;
+        align-items: center;
+    }
+    .header_contacts-mob .header_contact .header_contact-box img + img {
+        margin-right: 6px;
+    }
+    .header_contacts .header_contact-phone {
+        display: flex;
+        align-items: center;
+    }
+    .header_contacts .header_contact-phone img {
+        margin-bottom: 0;
+        margin-right: 6px;
+    }
+
+
+
+    
+
+    
+}

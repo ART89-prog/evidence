@@ -1,0 +1,10 @@
+@media print, (max-width: 1300px) {
+
+    .header_contacts .header_contact  {
+        margin-left: 38px;
+        font-size: 15px;
+    }
+
+
+}
+

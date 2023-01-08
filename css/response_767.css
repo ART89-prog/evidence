@@ -1,0 +1,46 @@
+@media print, (max-width: 767px) {
+
+    :root {
+        --font_size: 15px;
+        --font_size_title: 22px;
+    }
+
+    .header_language {
+        display: none;
+    }
+    .header_language-select {
+        display: block;
+        width: 60px;
+    }
+    .header_logo {
+        width: 99px;
+    }
+    .header_logo img {
+        width: 100%;
+    }
+    .header_contacts .header_contact-phone {
+        font-size: 7px;
+        line-height: 8px;
+        margin-left: 19px;
+    }
+    .header_contacts .header_contact-phone img {
+        width: 15px;
+        height: 15px;
+    }
+    .header_top {
+        padding: 13px 0 12px;
+    }
+    header .mob_menu_btn,
+    header .close_btn {
+        width: 25px;
+        height: 15px;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    header .menu {
+        top: 75px;
+    }
+
+
+
+}

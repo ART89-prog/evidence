@@ -1,0 +1,12 @@
+@media print, (max-width: 1187px) {
+
+    .first-section_info {
+        position: relative;
+        width: 100%;
+    }
+    .first-section .cont {
+        flex-wrap: wrap;
+    }
+
+
+}

@@ -646,3 +646,102 @@ header .menu .item.current-menu-item>a {
 .partners_item .partners_item-name {
     max-width: 336px;
 }
+
+
+
+/* practics */
+.practics {
+    padding: 150px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #1D1E21;
+}
+.practics_title {
+    text-align: start;
+    color: #FFFFFF;
+}
+.partners_wrap {
+    column-count: 2;
+    column-gap: 42px;
+}
+.partners_column {
+    break-inside: avoid-column;
+}
+.practics_subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #B79E5C;
+    margin-bottom: 30px;
+}
+.partners_text {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partners_text img {
+    margin-right: 10px;
+}
+.partners_column ul {
+    list-style: none;
+}
+.partners_column ul li {
+    padding-left: 57px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 30px;
+}
+.partners_column ul li:last-child {
+    margin-bottom: 0;
+}
+.partners_column ul li::after {
+    position: absolute;
+    content: "";
+    width: 44px;
+    height: 23px;
+    background: url(../images/arrow.svg);
+    left: 0;
+    top: 2px;
+}
+
+
+
+/* team */
+.team {
+    padding: 100px 0;
+}
+.team_items {
+    display: flex;
+    justify-content: center;
+    margin-left: -80px;
+    margin-bottom: -80px;
+    flex-wrap: wrap;
+}
+.team_items > * {
+    width: calc(100%/3 - 80px);
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.team_item-photo {
+}
+.team_item-info {
+}
+.team_item-left {
+}
+.team_item-name {
+}
+.team_item-post {
+}
+.team_item-link {
+}

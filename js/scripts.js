@@ -21,17 +21,50 @@ $(() => {
 
 
 
-	$('body').on('click', '.modal_link', function (e) {
-	    e.preventDefault()
+    $('body').on('click', '.modal_link', function (e) {
+        e.preventDefault()
+  
+        Fancybox.close(true)
+          Fancybox.show([{
+              src: $(this).data('content'),
+              type: 'inline',
+          }]);
+    })
 
-	    $.fancybox.close(true)
 
-	    $.fancybox.open({
-	        src: $(this).data('content'),
-	        type: 'inline',
-	        touch: false
-	    })
-	})
+    $('.video_items').slick({
+        infinite: true,
+        dots: true,
+        arrows: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow: "<img src='images/arrow-prev.svg'>",
+        nextArrow: "<img src='images/arrow-next.svg'>",
+        responsive: [
+            {
+              breakpoint: 1023,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 479,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      });
 
 
 

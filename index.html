@@ -28,6 +28,8 @@
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<link rel="stylesheet" href="css/response_1300.css" media="print, (max-width: 1300px)">
@@ -327,7 +329,7 @@
 								<div class="team_item-photo">
 									<img src="images/team1.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info">
+								<a href="#" class="team_item-info modal_link" data-content="#team_modal1">
 									<div class="team_item-left">
 										<div class="team_item-name">олег пырьев</div>
 										<div class="team_item-post">Управляющий партнер</div>
@@ -341,10 +343,10 @@
 								<div class="team_item-photo">
 									<img src="images/team2.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info">
+								<a href="#" class="team_item-info modal_link" data-content="#team_modal2">
 									<div class="team_item-left">
-										<div class="team_item-name">олег пырьев</div>
-										<div class="team_item-post">Управляющий партнер</div>
+										<div class="team_item-name">Хадижа Кацаева</div>
+										<div class="team_item-post">Старший юрист</div>
 									</div>
 									<div class="team_item-link">
 										<img src="images/arrow.svg" alt="">
@@ -355,10 +357,10 @@
 								<div class="team_item-photo">
 									<img src="images/team3.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info">
+								<a href="#" class="team_item-info modal_link" data-content="#team_modal3">
 									<div class="team_item-left">
-										<div class="team_item-name">олег пырьев</div>
-										<div class="team_item-post">Управляющий партнер</div>
+										<div class="team_item-name">Елена попова</div>
+										<div class="team_item-post">Советник</div>
 									</div>
 									<div class="team_item-link">
 										<img src="images/arrow.svg" alt="">
@@ -369,10 +371,10 @@
 								<div class="team_item-photo">
 									<img src="images/team4.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info">
+								<a href="#" class="team_item-info modal_link" data-content="#team_modal4">
 									<div class="team_item-left">
-										<div class="team_item-name">олег пырьев</div>
-										<div class="team_item-post">Управляющий партнер</div>
+										<div class="team_item-name">Елизавета жукова</div>
+										<div class="team_item-post">Специалист по работе с доверителями</div>
 									</div>
 									<div class="team_item-link">
 										<img src="images/arrow.svg" alt="">
@@ -383,16 +385,51 @@
 								<div class="team_item-photo">
 									<img src="images/team5.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info">
+								<a href="#" class="team_item-info modal_link" data-content="#team_modal5">
 									<div class="team_item-left">
-										<div class="team_item-name">олег пырьев</div>
-										<div class="team_item-post">Управляющий партнер</div>
+										<div class="team_item-name">Ольга зайцева</div>
+										<div class="team_item-post">Юрист</div>
 									</div>
 									<div class="team_item-link">
 										<img src="images/arrow.svg" alt="">
 									</div>    
 								</a>
 							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+				<section class="video">
+					<div class="cont">
+						<div class="video_title title">Видео</div>
+						<div class="video_items">
+							<a href="https://www.youtube.com/watch?v=8c_aHGcLnV8" data-fancybox="" class="videos_item">
+								<div class="videos_item-img">
+									<img data-src="images/video1.jpg" alt="" class="lozad">
+								</div>
+							</a>
+							<a href="https://www.youtube.com/watch?v=8c_aHGcLnV8" data-fancybox="" class="videos_item">
+								<div class="videos_item-img">
+									<img data-src="images/video1.jpg" alt="" class="lozad">
+								</div>
+							</a>
+							<a href="https://www.youtube.com/watch?v=8c_aHGcLnV8" data-fancybox="" class="videos_item">
+								<div class="videos_item-img">
+									<img data-src="images/video1.jpg" alt="" class="lozad">
+								</div>
+							</a>
+							<a href="https://www.youtube.com/watch?v=8c_aHGcLnV8" data-fancybox="" class="videos_item">
+								<div class="videos_item-img">
+									<img data-src="images/video1.jpg" alt="" class="lozad">
+								</div>
+							</a>
+							<a href="https://www.youtube.com/watch?v=8c_aHGcLnV8" data-fancybox="" class="videos_item">
+								<div class="videos_item-img">
+									<img data-src="images/video1.jpg" alt="" class="lozad">
+								</div>
+							</a>
 						</div>
 					</div>
 				</section>
@@ -420,7 +457,7 @@
 
 
 
-		<!-- <section class="modal callback" id="callback_modal">		
+		<section class="modal callback" id="team_modal1">		
 			<div class="callback_title">Запись на консультацию</div>
 			<form>
 				<div class="line">
@@ -456,7 +493,7 @@
 					<span>Записаться</span>
 				</button>
 			</form>
-		</section> -->
+		</section>
 
 
 		<!-- Подключение javascript файлов -->
@@ -465,6 +502,7 @@
 		<script src="js/lozad.min.js"></script>
 		<script src="js/inputmask.min.js"></script>
 		<script src="js/nice-select.js"></script>
+		<script src="js/slick.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 

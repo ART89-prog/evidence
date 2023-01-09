@@ -1,7 +1,41 @@
 @media (max-width: 479px) {
 
-  
- 
+    .footer_callback,
+    .footer_menu li a,
+    .footer_contact,
+    .footer_politic,
+    .footer_contract {
+        font-size: 10px;
+    }
+    .footer_callback {
+        margin: 0;
+    }
+    footer .link a {
+        max-width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+    .footer_callback-name {
+        margin-bottom: 10px;
+    }
+    .footer_callback-requisites {
+        margin-bottom: 10px;
+    }
+    .footer_callback-adress {
+        margin-bottom: 10px;
+    }
+    .footer_callback-copyright {
+        margin-bottom: 20px;
+    }
+    .footer_contact {
+        margin-bottom: 10px;
+    }
+    .footer_politic {
+        margin-top: 0;
+    }
+    .footer_contract {
+        margin-top: 10px;
+    }
 
 
    

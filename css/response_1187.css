@@ -8,5 +8,18 @@
         flex-wrap: wrap;
     }
 
+    .footer_menu {
+        columns: 1;
+        column-gap: 20px;
+    }
+    .footer_menu li {
+        margin-bottom: 24px;
+    }
+    .achievements .slick-slide img {
+        display: block;
+        padding: 0 30px;
+        width: 100%;
+        height: auto;
+    }
 
 }

@@ -41,6 +41,34 @@
         top: 75px;
     }
 
+    .footer_menu {
+        display: none;
+    }
+    footer .cont {
+        flex-direction: column;
+    }
+    .footer_contacts {
+        align-items: center;
+        margin-top: 20px;
+    }
+    .footer_contacts-wrap {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer_contact-mesenger {
+        order: 1;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        padding: 30px 0;
+    }
+
+
 
 
 }

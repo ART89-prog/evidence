@@ -38,13 +38,11 @@ $(() => {
         arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: "<img src='images/arrow-prev.svg'>",
-        nextArrow: "<img src='images/arrow-next.svg'>",
         responsive: [
             {
               breakpoint: 1023,
               settings: {
-                slidesToShow: 3,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
               }
@@ -52,7 +50,40 @@ $(() => {
             {
               breakpoint: 767,
               settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 479,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      });
+
+
+      $('.achievements_items').slick({
+        infinite: true,
+        dots: true,
+        arrows: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1023,
+              settings: {
                 slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
                 slidesToScroll: 1
               }
             },

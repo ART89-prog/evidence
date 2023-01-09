@@ -173,6 +173,22 @@
         margin-bottom: 0;
         margin-right: 6px;
     }
+    .header_top {
+        width: 100%;
+        position: fixed;
+        z-index: 222;
+    }
+    .first-section {
+        margin-top: 114px;
+    }
+
+    .footer_callback,
+    .footer_menu li a,
+    .footer_contact,
+    .footer_politic,
+    .footer_contract {
+        font-size: 13px;
+    }
 
 
 

@@ -495,7 +495,7 @@ header .menu .item.current-menu-item>a {
     flex-wrap: wrap;
     justify-content: center;
 }
-.first-section_links a {
+.link a {
     text-decoration: none;
     width: 170px;
     height: 50px;
@@ -754,6 +754,7 @@ header .menu .item.current-menu-item>a {
     line-height: 19px;
     color: #000000;
 }
+
 
 .video_item {
     width: 1080px;

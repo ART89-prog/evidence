@@ -34,23 +34,13 @@ $(() => {
 	})
 
 
-	$(window).scroll(function(){
-		// Кнопка 'Вверх'
-		if( $(window).scrollTop() > $(window).innerHeight() ) {
-			$('.buttonUp').fadeIn(300)
-		} else {
-			$('.buttonUp').fadeOut(200)
-		}
-	})
-
-
 	// Скрол к пунктам меню
 	$(".scroll").on("click", function(e){
 		e.preventDefault();
 		let id = $(this).attr("href");
 
 		$("html, body").animate({
-				scrollTop: $(id).offset().top - 100
+				scrollTop: $(id).offset().top + 20
 			}, {
 				duration: 1500,
 				easing: "swing"
@@ -67,6 +57,14 @@ $(() => {
 	// 	PREV: "Предыдущий",
 	// 	MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
 	// }
+
+
+
+	Fancybox.defaults.template = {
+		closeButton: "<img src='images/close.svg'>",
+		spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
+		main: null
+	}
 
 
 	// Моб. версия

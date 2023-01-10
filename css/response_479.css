@@ -164,6 +164,55 @@
         line-height: 12px;
     }
 
+    .news_item {
+        padding: 20px 8px;
+    }
+    .news_item-date {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .news_item-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .news_item-text {
+        line-height: 12px;
+    }
+    .news_item {
+        margin-bottom: 20px;
+    }
+    .news .view-link {
+        font-size: 14px;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+    }
+    .modal {
+        padding: 76px 10px;
+    }
+    .partners_modal-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .team_modal-post {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+    .team_modal-name {
+        margin-bottom: 10px;
+    }
+    .team_modal-email {
+        margin-top: 10px;
+    }
+
+    .breadcrumbs {
+        margin-bottom: 20px;
+    }
+    .news-page .news_title {
+        text-align: start;
+    }
+
 
 
 

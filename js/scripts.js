@@ -83,14 +83,14 @@ $(() => {
             {
               breakpoint: 767,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1
               }
             },
             {
               breakpoint: 479,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1
               }
             }

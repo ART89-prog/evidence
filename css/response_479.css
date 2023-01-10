@@ -1,5 +1,9 @@
 @media (max-width: 479px) {
 
+    :root {
+        --font_size: 10px;
+        --font_size_title: 19px;
+    }
     .footer_callback,
     .footer_menu li a,
     .footer_contact,
@@ -36,6 +40,131 @@
     .footer_contract {
         margin-top: 10px;
     }
+
+
+    .cont {
+        padding: 0 10px;
+    }
+    .first-section_img {
+        width: 146px;
+        height: 194px;
+    }
+    .link a {
+        width: 146px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .block {
+        padding: 30px 0;
+    }
+    .first-section_title-mob {
+        font-size: 19px;
+        line-height: 19px;
+        max-width: 280px;
+    }
+    .first-section_text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .advantages_item-title {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+    .advantages_item-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .partners_item a {
+        max-width: 136px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .partners_item-name {
+        margin-bottom: 8px;
+    }
+    .practics,
+    .consultation {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .practics_subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+    .practics_column ul li::after {
+        width: 14px;
+        height: 7px;
+        top: 3px;
+        background-size: cover;
+    }
+    .practics_column ul li {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 5px;
+        padding-left: 22px;
+    }
+    .practics_text {
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .team_item-name {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .team_item-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .consultation_img {
+        width: 100%;
+        height: auto;
+    }
+    .achievements .slick-prev::before {
+        left: 9px;
+    }
+    .achievements .slick-next:before {
+        left: -2px;
+    }
+
+    .price_item-img {
+        width: 100%;
+        height: auto;
+    }
+    .price_text {
+        font-size: var(--font_size);
+    }
+    .price_item .link {
+        width: 100%;
+    }
+    .price_item .link a {
+        width: 100%;
+        height: 40px;
+    }
+    .price_item ul li {
+        line-height: 12px;
+    }
+    form button {
+        max-width: 100%;
+    }
+    .steps_item-title span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .steps_item-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
 
 
    

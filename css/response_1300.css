@@ -1,8 +1,15 @@
 @media print, (max-width: 1300px) {
 
+    :root {
+        --font_size: 16px;
+        --font_size_title: 40px;
+    }
     .header_contacts .header_contact  {
         margin-left: 38px;
         font-size: 15px;
+    }
+    .advantages_top .advantages_item:nth-child(1):after {
+        left: -20px;
     }
 
 

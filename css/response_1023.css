@@ -412,6 +412,44 @@
         margin-bottom: 20px;
     }
 
+    .payment {
+        padding: 150px 0;
+    }
+    .tab_content-box {
+        flex-direction: column;
+    }
+    .payment_requisites {
+        padding: 30px 14px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .tabs_container form {
+        width: 100%;
+    }
+    .tabs_container form .line {
+        margin-bottom: 20px;
+    }
+    .tabs {
+        margin-bottom: 20px;
+    }
+    .tabs button.active {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .tabs button {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .tabs_container form .line:nth-child(3) .field {
+        margin-right: 8px;
+    }
+    .tabs_container form .line .field input {
+        border-bottom: 1px solid #000;
+    }
+    .payment_requisites-text p {
+        margin-bottom: 10px;
+    }
+
 
     
 

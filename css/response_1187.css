@@ -160,6 +160,25 @@
         margin-top: 20px;
     }
 
+    .payment_requisites {
+        padding: 30px 14px;
+        width: 420px;
+    }
+    .tabs_container form {
+        width: calc(100% - 470px);
+    }
+    .payment form button{
+        max-width: 100%;
+    }
+    .tabs button.active {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .tabs button {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
 
 
 

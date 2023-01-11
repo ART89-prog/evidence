@@ -212,6 +212,38 @@
     .news-page .news_title {
         text-align: start;
     }
+    .payment {
+        padding-bottom: 76px;
+    }
+    .tabs button.active {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .tabs button {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .tabs_container form .line:nth-child(3) {
+        flex-wrap: wrap;
+    }
+    .tabs_container form .line:nth-child(3) .field:nth-child(1) {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .tabs_container form .line:nth-child(3) .field:nth-child(2) {
+        margin-right: 0px;
+        width: 48%;
+        margin-top: 15px;
+    }
+    .tabs_container form .line:nth-child(3) .field:nth-child(3) {
+        margin-left: 8px;
+        width: 48%;
+        margin-top: 15px;
+    }
+    .tabs_container form .line {
+        margin-bottom: 15px;
+    }
+
 
 
 

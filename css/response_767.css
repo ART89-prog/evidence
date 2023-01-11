@@ -383,5 +383,12 @@
         padding: 100px 0 60px;
     }
 
+    .payment {
+        padding: 100px 0;
+    }
+    .payment_title {
+        margin-bottom: 20px;
+    }
+
 
 }

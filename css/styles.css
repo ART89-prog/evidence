@@ -1716,3 +1716,93 @@ footer .link a {
 .news-page .news_item-img img {
     border: 1px solid #000;
 }
+
+
+.tab_content {
+    position: relative;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    pointer-events: none;
+    opacity: 0;
+}
+.tab_content.active {
+    visibility: visible;
+    overflow: visible;
+    height: auto;
+    transition: opacity .5s linear;
+    pointer-events: auto;
+    opacity: 1;
+}
+.payment_title {
+    text-align: start;
+}
+.payment {
+}
+.block {
+}
+.cont {
+}
+.breadcrumbs {
+}
+.sep {
+}
+.current {
+}
+.payment_left {
+}
+.payment_title {
+}
+.title {
+}
+.tabs button {
+    padding: 8px 24px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #666666;
+}
+.tabs button.active {
+    padding: 8px 24px;
+    background: #1D1E21;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.tabs_container form {
+    width: calc(100% - 550px);
+}
+.tabs {
+    margin-bottom: 50px;
+}
+.active {
+}
+.tab_content-box {
+    display: flex;
+    justify-content: space-between;
+}
+.level1 {
+}
+.data {
+}
+.line {
+}
+.field {
+}
+.payment_requisites {
+    padding: 50px 32px;
+    border: 1px solid #000000;
+    width: 461px;
+}
+.tabs_container form .line {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.payment_requisites-title {
+}
+.payment_requisites-text {
+}
+.payment_right {
+}

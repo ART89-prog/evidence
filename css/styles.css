@@ -543,6 +543,7 @@ header .menu .item:hover>a::after {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 .link a {
     text-decoration: none;
@@ -1957,3 +1958,55 @@ footer .link a {
     text-decoration: underline; 
     border: 1px solid #B79E5C; 
 }
+
+
+.btn-blick {
+    position: relative;
+    overflow: hidden;
+}
+.btn-blick-anim1, 
+.btn-blick-anim2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200px;
+    width: 60px;
+    background: #fff;
+    background: currentColor;
+    filter: blur(40px);
+    transform: skewX(-30deg);
+    animation: btn-blick-anim 4s 0s infinite;
+}
+.btn-blick-anim2 {
+    animation-delay: 0.4s;
+}
+
+.btn-primary {
+    color: #fff;
+    background: #B79E5C;
+}
+.btn-primary:hover {
+    background: #B79E5C;
+}
+.btn:active {
+    background: #000;
+}
+@keyframes blick-anim-hover {
+    from {
+      left: -200px;
+    }
+    to {
+      left: calc(100% + 150px);
+    }
+  }
+@keyframes btn-blick-anim {
+    from {
+      left: -200px;
+    }
+    35% {
+      left: calc(100% + 150px);
+    }
+    100% {
+      left: calc(100% + 150px);
+    }
+  }

@@ -453,6 +453,14 @@
         border-bottom: 1px solid #000000;
     }
 
+    .cases_item {
+        padding: 20px 20px;
+    }
+    .cases_item-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
 
     
 

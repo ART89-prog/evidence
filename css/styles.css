@@ -1253,7 +1253,15 @@ form button img {
     background: #B79E5C;
     border: 1px solid #B79E5C;
 }
-
+.cases_item-title button {
+    display: none;
+}
+.cases_item-link.cases_item-link-mob {
+    display: none;
+}
+.cases_item-img span {
+    display: none;
+}
 
 
 /* news */
@@ -1746,6 +1754,10 @@ footer .link a {
     font-size: 24px;
     line-height: 29px;
     color: #666666;
+    transition: all .4s;
+}
+.tabs button:hover {
+    text-decoration: underline;
 }
 .tabs button.active {
     padding: 8px 24px;
@@ -1754,6 +1766,9 @@ footer .link a {
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
+}
+.tabs button.active:hover {
+    text-decoration: none;
 }
 .tabs_container form {
     width: calc(100% - 550px);
@@ -1867,11 +1882,6 @@ footer .link a {
 }
 .tab_content-box2 form .line:nth-child(4) {
     display: flex;
-    /* margin-left: -28px; */
-}
-.tab_content-box2 form .line:nth-child(4) > * {
-    /* width: calc(100%/3 - 28px); */
-    /* margin-left: 28px; */
 }
 .payment form button {
     max-width: 186px;
@@ -1892,8 +1902,6 @@ footer .link a {
     width: 24%;
 }
 .tab_content-box2 form .line:nth-child(4) .field:nth-child(3) {
-    /* max-width: 345px; */
-    /* margin-left: -28px; */
     width: calc(100% - 376px);
 }
 .tab_content-box2 form .line:nth-child(4) {
@@ -1916,4 +1924,36 @@ footer .link a {
 }
 .payment .nice-select:after {
     border-color: #000 transparent transparent transparent;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #000000;  
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    transition: all .4s;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.pagination a.active {
+    color: #fff;
+    background: #000000;
+}
+.pagination a:hover {
+    color: #fff;
+    background: #B79E5C;  
+    text-decoration: underline; 
+    border: 1px solid #B79E5C; 
 }

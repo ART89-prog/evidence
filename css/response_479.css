@@ -244,6 +244,48 @@
         margin-bottom: 15px;
     }
 
+    .cases_item-img {
+        width: 100%;
+        height: auto;
+    }
+    .cases_item-img img {
+        width: 100%;
+        height: auto;
+    }
+    .cases_item-title {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .cases_item-title-img {
+        width: 20%;
+        height: auto;
+    }
+    .cases_item {
+        margin-bottom: 30px;
+        padding: 20px 8px;
+    }
+    .cases_item-text {
+        line-height: 12px;
+        margin-bottom: 20px;
+    }
+    .cases .view-link {
+        width: 100%;
+        height: 40px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .pagination a {
+        width: 33px;
+        height: 33px;
+        font-size: 10px;
+        line-height: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
 
 
 

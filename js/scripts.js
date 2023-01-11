@@ -32,6 +32,11 @@ $(() => {
     })
 
 
+    $('.cases_item-title button').click(function(){
+      $(this).parent().parent().parent().toggleClass('active');
+    });
+
+
     $('.video_items').slick({
         infinite: true,
         dots: true,

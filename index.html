@@ -349,11 +349,11 @@
 					<div class="cont">
 						<div class="team_title title">Команда</div>
 						<div class="team_items">
-							<div class="team_item">
+							<a href="#" class="team_item modal_link" data-content="#team_modal1">
 								<div class="team_item-photo">
 									<img src="images/team1.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info modal_link" data-content="#team_modal1">
+								<div class="team_item-info">
 									<div class="team_item-left">
 										<div class="team_item-name">олег пырьев</div>
 										<div class="team_item-post">Управляющий партнер</div>
@@ -361,13 +361,13 @@
 									<div class="team_item-link">
 										<img src="images/arrow7.svg" alt="">
 									</div>    
-								</a>
-							</div>
-							<div class="team_item">
+								</div>
+							</a>
+							<a href="#" class="team_item modal_link" data-content="#team_modal2">
 								<div class="team_item-photo">
 									<img src="images/team2.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info modal_link" data-content="#team_modal2">
+								<div class="team_item-info">
 									<div class="team_item-left">
 										<div class="team_item-name">Хадижа Кацаева</div>
 										<div class="team_item-post">Старший юрист</div>
@@ -375,13 +375,13 @@
 									<div class="team_item-link">
 										<img src="images/arrow7.svg" alt="">
 									</div>    
-								</a>
-							</div>
-							<div class="team_item">
+								</div>
+							</a>
+							<a href="#" class="team_item modal_link" data-content="#team_modal3">
 								<div class="team_item-photo">
 									<img src="images/team3.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info modal_link" data-content="#team_modal3">
+								<div class="team_item-info">
 									<div class="team_item-left">
 										<div class="team_item-name">Елена попова</div>
 										<div class="team_item-post">Советник</div>
@@ -389,13 +389,13 @@
 									<div class="team_item-link">
 										<img src="images/arrow7.svg" alt="">
 									</div>    
-								</a>
-							</div>
-							<div class="team_item">
+								</div>
+							</a>
+							<a href="#" class="team_item modal_link" data-content="#team_modal4">
 								<div class="team_item-photo">
 									<img src="images/team4.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info modal_link" data-content="#team_modal4">
+								<div class="team_item-info">
 									<div class="team_item-left">
 										<div class="team_item-name">Елизавета жукова</div>
 										<div class="team_item-post">Специалист по работе с доверителями</div>
@@ -403,13 +403,13 @@
 									<div class="team_item-link">
 										<img src="images/arrow7.svg" alt="">
 									</div>    
-								</a>
-							</div>
-							<div class="team_item">
+								</div>
+							</a>
+							<a href="#" class="team_item modal_link" data-content="#team_modal5">
 								<div class="team_item-photo">
 									<img src="images/team5.jpg" alt="">
 								</div>
-								<a href="#" class="team_item-info modal_link" data-content="#team_modal5">
+								<div class="team_item-info">
 									<div class="team_item-left">
 										<div class="team_item-name">Ольга зайцева</div>
 										<div class="team_item-post">Юрист</div>
@@ -417,8 +417,8 @@
 									<div class="team_item-link">
 										<img src="images/arrow7.svg" alt="">
 									</div>    
-								</a>
-							</div>
+								</div>
+							</a>
 						</div>
 					</div>
 				</section>
@@ -873,7 +873,7 @@
 						</div>
 						<div class="footer_callback-copyright">© Evidence Legal 2022. Все права защищены.</div>
 						<div class="link">
-							<a href="#" class="btn btn-primary btn-blick">
+							<a href="#" class="modal_link btn btn-primary btn-blick" data-content="#modal_callback">
 								<i class="btn-blick-anim1"></i>
 								<i class="btn-blick-anim2"></i>		
 								<span>Заказать обратный звонок</span>
@@ -915,6 +915,34 @@
 		</div>
 
 
+
+		<section class="modal_callback" id="modal_callback">
+			<form>
+				<div class="modal_callback-title title">Получите бесплатную консультацию</div>
+				<div class="consultation_text">На первой бесплатной 15минутной консультации Вы получите определение причины и способа решения Вашей проблемы, практические рекомендации и ответы на другие интересующие Вас вопросы.</div>
+				<div class="line">
+					<div class="field">
+						<input type="text" placeholder="Ваше имя">
+					</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<input type="email" placeholder="Ваша почта">
+					</div>
+				</div>
+				<div class="line">
+					<div class="field">
+						<textarea placeholder="Ваш вопрос"></textarea>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-blick">	
+					<i class="btn-blick-anim1"></i>
+					<i class="btn-blick-anim2"></i>								
+					<span>Отправить</span>
+					<img src="images/arrow2.svg" alt="">
+				</button>
+			</form>
+		</section>
 		
 
 
@@ -953,7 +981,7 @@
 
 
 		<section class="modal partners_modal" id="partners_modal3">		
-			<div class="partners_modal-info">
+			<div class="partners_modal-info w100">
 				<div class="partners_modal-title">Партнеры Азиатско-Тихоокеанского Банка</div>
 				<div class="partners_modal-text">
 					<p>Юридическая фирма «Evidence Legal» является партнером Азиатско-Тихоокеанский Банка (АО).</p>
@@ -964,7 +992,7 @@
 
 
 		<section class="modal partners_modal" id="partners_modal4">		
-			<div class="partners_modal-info">
+			<div class="partners_modal-info w100">
 				<div class="partners_modal-title">Партнеры Банка Точка</div>
 				<div class="partners_modal-text">
 					<p>Юридическая фирма «Evidence Legal» является партнером Банка Точка.</p>
@@ -989,7 +1017,6 @@
 				<span>evidencelegal@yandex.ru</span>
 			</a>
 		</section>
-
 
 
 		<section class="modal team_modal" id="team_modal2">		

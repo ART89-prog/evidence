@@ -451,6 +451,9 @@
     .payment .nice-select {
         margin-top: 10px;
     }
+    .payment .nice-select .list {
+        width: 100%;
+    }
 
     .cases_item {
         flex-direction: column;
@@ -512,6 +515,18 @@
         position: relative;
         text-decoration: none;
     }
+    .cases_item-img img {
+        width: 100%;
+    }
+    .cases_item-img:before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+    }
     .cases_item-img span {
         display: block;
         position: absolute;
@@ -524,6 +539,13 @@
         color: #000000;    
         padding: 9px 38px;
         background: #FFFFFF;
+    }
+    .cases .view-link {
+        font-size: 20px;
+    }
+
+    .videos_item-img img {
+        height: 290px;
     }
 
 

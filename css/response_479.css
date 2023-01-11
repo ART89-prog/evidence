@@ -19,6 +19,9 @@
         height: 40px;
         font-size: 14px;
     }
+    .footer_callback {
+        line-height: 1.2;
+    }
     .footer_callback-name {
         margin-bottom: 10px;
     }
@@ -94,6 +97,10 @@
         padding-bottom: 50px;
     }
 
+    .consultation_text {
+        line-height: 1.2;
+    }
+
     .practics_subtitle {
         font-size: 14px;
         line-height: 17px;
@@ -138,6 +145,9 @@
     .price_item-img {
         width: 100%;
         height: auto;
+    }
+    .price_logo {
+        margin: 0 auto;
     }
     .price_text {
         font-size: var(--font_size);
@@ -204,6 +214,12 @@
     }
     .team_modal-email {
         margin-top: 10px;
+    }
+    form .line .field input {
+        padding: 10px 0;
+    }
+    form .line .field textarea {
+        padding: 10px 0;
     }
 
     .breadcrumbs {
@@ -283,6 +299,23 @@
         line-height: 12px;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .modal_callback {
+        padding: 50px 10px 10px;
+    }
+    .modal_callback-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .modal_callback .consultation_text {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .videos_item-img img {
+        height: 200px;
     }
 
 

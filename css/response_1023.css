@@ -460,6 +460,9 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
+    .videos_item-img img {
+        height: 360px;
+    }
 
 
     

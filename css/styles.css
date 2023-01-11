@@ -1882,20 +1882,38 @@ footer .link a {
     color: #FFFFFF;
 }
 .tab_content-box2 form .line:nth-child(4) .field:nth-child(1) {
-    width: 147px;
-    margin-right: 39px;
+    max-width: 147px;
+    margin-right: 28px;
+    width: 24%;
 }
 .tab_content-box2 form .line:nth-child(4) .field:nth-child(2) {
-    width: 151px;
-    margin-right: 39px;
+    max-width: 151px;
+    margin-right: 28px;
+    width: 24%;
+}
+.tab_content-box2 form .line:nth-child(4) .field:nth-child(3) {
+    /* max-width: 345px; */
+    /* margin-left: -28px; */
+    width: calc(100% - 376px);
+}
+.tab_content-box2 form .line:nth-child(4) {
+    margin-left: 0px;
 }
 .payment .nice-select {
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 30px;
-    color: #000000;
-    width: 373px;
+    color: #666;
     flex-shrink: 0;
     border-bottom: 2px solid #000000;
+    padding: 5px 20px 5px 0;
+}
+.payment .nice-select .current {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.payment .nice-select:after {
+    border-color: #000 transparent transparent transparent;
 }

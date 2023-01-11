@@ -389,6 +389,68 @@
     .payment_title {
         margin-bottom: 20px;
     }
+    .tab_content-box2 form .line:nth-child(1) {
+        margin-left: 0;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .tab_content-box2 form .line:nth-child(1) > * {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tab_content-box2 form .line:nth-child(2) {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .tab_content-box2 form .line:nth-child(2) > * {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .tab_content-box2 form .line:nth-child(2) {
+        margin-bottom: 0;
+    }
+    .tab_content-box2 form .line:nth-child(4) {
+        margin-left: 0;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        justify-content: space-between;
+    }
+    .tab_content-box2 form .line:nth-child(4) > * {
+        margin-left: 0;
+        width: 100%;
+    }
+    .tab_content-box2 form .line:nth-child(4) .field:nth-child(3) {
+        width: 100%;
+    }
+    .tab_content-box2 form .line:nth-child(4) .field:nth-child(1) {
+        margin-right: 0px;
+        width: 46%;
+        margin-top: 10px;
+    }
+    .tab_content-box2 form .line:nth-child(4) .field:nth-child(2) {
+        margin-left: 0px;
+        width: 46%;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    .tab_content-box2 form .line:nth-child(4) .field:nth-child(1) {
+        max-width: 100%;
+    }
+    .tab_content-box2 form .line:nth-child(4) .field:nth-child(2) {
+        max-width: 100%;
+    }
+    .tabs_container .tab_content-box2 form .line {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .tabs_container .tab_content-box2 form .line:nth-child(3) .field {
+        margin-left: 0;
+    }
+    .payment .nice-select {
+        margin-top: 10px;
+    }
 
 
 }

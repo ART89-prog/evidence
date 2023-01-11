@@ -449,6 +449,9 @@
     .payment_requisites-text p {
         margin-bottom: 10px;
     }
+    .payment .nice-select {
+        border-bottom: 1px solid #000000;
+    }
 
 
     

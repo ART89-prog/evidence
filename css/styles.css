@@ -549,7 +549,7 @@ header .menu .item:hover>a::after {
     text-decoration: none;
     width: 170px;
     height: 50px;
-    background: linear-gradient(105.78deg, #B79E5C 11.72%, #E0C889 28.98%, #B79E5C 50.25%);
+    background: #B79E5C;
     font-family: var(--font_family);
     font-weight: 600;
     font-size: 16px;
@@ -1993,7 +1993,7 @@ footer .link a {
     background: #B79E5C;
 }
 .btn:active {
-    background: #000;
+    background: #B79E5C;
 }
 @keyframes blick-anim-hover {
     from {

@@ -2032,6 +2032,7 @@ footer .link a {
     margin-bottom: 20px;
     font-size: 13px;
     line-height: 1.3;
+    text-align: center;
 }
 .modal_callback.fancybox__content>.carousel__button.is-close img {
     display: none;

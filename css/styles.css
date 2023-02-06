@@ -258,7 +258,7 @@ button {
 
 .cont {
     width: 100%;
-    max-width: 1340px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -373,12 +373,12 @@ header .close_btn {
 header .menu {
     padding: 18px 0px;   
     padding-top: 136px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 }
 header .menu .cont {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    max-width: 1300px;
 }
 header .menu .item > a {
     font-weight: 400;
@@ -433,6 +433,12 @@ header .menu .item:hover>a::after {
     width: 100%;
     z-index: 100;
 }
+.header_top button {
+    margin-left: 50px;
+    width: 212px;
+    height: 50px;
+    font-weight: 600;
+}
 .header_top .cont {
     display: flex;
     align-items: center;
@@ -446,14 +452,17 @@ header .menu .item:hover>a::after {
 .header_contacts .header_contact {
     display: block;
     text-decoration: none;
-    margin-left: 104px;
-    font-family: 'Neue Machina';
+    margin-left: 46px;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 15px;
     color: #FFFFFF;
     white-space: nowrap;
     transition: all .4s;
+}
+.header_contacts .header_contact:nth-child(2) {
+    margin-left: 65px;
 }
 
 .header_contacts .header_contact a{
@@ -472,6 +481,7 @@ header .menu .item:hover>a::after {
 }
 .header_contacts .header_contact-box {
     display: flex;
+    justify-content: space-between;
 }
 .header_contacts .header_contact-box a + a {
     margin-left: 6px;
@@ -508,8 +518,8 @@ header .menu .item:hover>a::after {
 
 /* first-section */
 .first-section {
-    padding-top: 82px;
-    padding-bottom:100px;
+    padding-top: 77px;
+    padding-bottom:52px;
 }
 .first-section .cont {
     display: flex;
@@ -522,14 +532,14 @@ header .menu .item:hover>a::after {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 50px;
+    top: 39px;
     left: 0;
     bottom: 0;
     right: 0;
 }
 .first-section_img {
-    width: 381px;
-    height: 505px;
+    width: 340px;
+    height: 452px;
 }
 .first-section_img img {
     width: 100%;
@@ -544,7 +554,7 @@ header .menu .item:hover>a::after {
     text-align: center;
     text-transform: uppercase;    
     color: var(--text_color);
-    margin-bottom: 30px;
+    margin-bottom: 43px;
 }
 .first-section_text {
     font-weight: 400;
@@ -601,7 +611,7 @@ header .menu .item:hover>a::after {
     line-height: 24px;
     text-transform: uppercase;
     color: var(--text_color);
-    margin-top: 17px;
+    margin-top: 34px;
     text-align: center;
 }
 .first-section_post {
@@ -616,6 +626,9 @@ header .menu .item:hover>a::after {
 
 
 /* advantages  */
+.advantages {
+    padding: 55px 0 72px;
+}
 .advantages_top {
     display: flex;
     justify-content: space-between;
@@ -633,16 +646,16 @@ header .menu .item:hover>a::after {
 .advantages_item-title {
     font-family: 'Coworking';
     font-weight: 400;
-    font-size: 36.3378px;
-    line-height: 36px;
+    font-size: 28px;
+    line-height: 28px;
     text-transform: uppercase;    
     color: #FFFFFF; 
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .advantages_item-text {
     font-weight: 400;
-    font-size: 18.1689px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -668,6 +681,9 @@ header .menu .item:hover>a::after {
 .advantages_item img {
     width: 100%;
 }
+.advantages_item-wrap {
+    margin-left: 12px;
+}
 .advantages_bottom .advantages_item:nth-child(1) {
     font-weight: 400;
     font-size: 10px;
@@ -675,8 +691,9 @@ header .menu .item:hover>a::after {
     color: var(--text_color);
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 11px;
-    padding-left: 7px;
+    margin-top: 8px;
+    padding-left: 12px;
+
 }
 .advantages_top .advantages_item:nth-child(1) {
     position: relative;
@@ -687,14 +704,17 @@ header .menu .item:hover>a::after {
     width: 18px;
     height: 17px;
     background: url(../images/star.svg);
-    left: -37px;
-    top: 33%;
+    left: -16px;
+    top: 30%;
 }
 
 
 
 
 /* partners */
+.partners {
+    padding: 65px 0 76px;
+}
 .title {
     font-family: 'Coworking';
     font-weight: 400;
@@ -710,19 +730,19 @@ header .menu .item:hover>a::after {
     align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: -50px;
-    margin-bottom: -50px;
+    margin-left: -41px;
+    margin-bottom: -44px;
 }
 .partners_items > * {
-    width: calc(100%/2 - 50px);
-    margin-left: 50px;
-    margin-bottom: 50px;
+    width: calc(100%/2 - 41px);
+    margin-left: 41px;
+    margin-bottom: 44px;
 }
 .partners_item {
     display: flex;
     justify-content: space-between;
     border: 1px solid var(--text_color);
-    padding: 46px 23px 46px 33px;
+    padding: 53px 43px 46px 55px;
     height: 211px;
 }
 .partners_item-info {
@@ -733,8 +753,8 @@ header .menu .item:hover>a::after {
 }
 .partners_item-name {
     font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 12px;
+    line-height: 15px;
     color: var(--text_color);
     margin-bottom: 30px;
 }
@@ -768,21 +788,17 @@ header .menu .item:hover>a::after {
 
 /* practics */
 .practics {
-    padding: 150px 0;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 106px 0;
+    margin-top: 76px;
+    margin-bottom: 50px;
     background: #1D1E21;
+}
+.practics_column:nth-child(1) {
+    margin-bottom: 75px;
 }
 .practics_title {
     text-align: start;
     color: #FFFFFF;
-}
-.practics_wrap {
-    column-count: 2;
-    column-gap: 42px;
-}
-.practics_column {
-    break-inside: avoid-column;
 }
 .practics_subtitle {
     font-weight: 700;
@@ -790,11 +806,11 @@ header .menu .item:hover>a::after {
     line-height: 29px;
     text-transform: uppercase;
     color: #B79E5C;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 .practics_text {
     margin-top: 80px;
-    text-align: center;
+    text-align: start;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -802,7 +818,7 @@ header .menu .item:hover>a::after {
     color: #FFFFFF;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .practics_text img {
     margin-right: 10px;
@@ -810,15 +826,18 @@ header .menu .item:hover>a::after {
 }
 .practics_column ul {
     list-style: none;
+    break-inside: avoid-column;
+    column-count: 2;
+    column-gap: 40px;
 }
 .practics_column ul li {
     padding-left: 57px;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 21px;
+    line-height: 25px;
     color: #FFFFFF;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .practics_column ul li:last-child {
     margin-bottom: 0;
@@ -836,17 +855,20 @@ header .menu .item:hover>a::after {
 
 
 /* team */
+.team {
+    padding-top: 50px;
+}
 .team_items {
     display: flex;
     justify-content: center;
-    margin-left: -80px;
-    margin-bottom: -80px;
+    margin-left: -40px;
+    margin-bottom: -60px;
     flex-wrap: wrap;
 }
 .team_items > * {
-    width: calc(100%/3 - 80px);
-    margin-left: 80px;
-    margin-bottom: 80px;
+    width: calc(100%/3 - 40px);
+    margin-left: 40px;
+    margin-bottom: 60px;
     text-decoration: none;
 }
 .team_item-info {
@@ -859,8 +881,8 @@ header .menu .item:hover>a::after {
 .team_item-name {
     font-family: 'Coworking';
     font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 21px;
+    line-height: 21px;
     text-transform: uppercase;
     color: var(--text_color);
     transition: all .4s;
@@ -872,9 +894,13 @@ header .menu .item:hover>a::after {
     color: var(--text_color);
     transition: all .4s;
 }
+.team_item-photo {
+    width: 340px;
+    height: 513px;
+}
 .team_item-photo img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -885,7 +911,8 @@ header .menu .item:hover>a::after {
     position: relative;
 }
 .videos_item-img {
-    width: 1080px;  
+    width: 910px;  
+    height: 418px;
     margin: 0 auto;
     text-align: center;
 }
@@ -967,7 +994,7 @@ header .menu .item:hover>a::after {
 .consultation {
     padding: 150px 0;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 64px;
     background: #1D1E21;
 }
 .consultation_wrap {
@@ -975,8 +1002,8 @@ header .menu .item:hover>a::after {
     justify-content: space-between;
 }
 .consultation_img {
-    width: 550px;
-    height: 701px;
+    width: 499px;
+    height: 629px;
 }
 .consultation_img img {
     width: 100%;
@@ -984,13 +1011,14 @@ header .menu .item:hover>a::after {
     object-fit: cover;
 }
 .consultation form {
-    width: calc(100% - 667px);
+    width: calc(100% - 575px);
 }
 .consultation_title {
     text-align: start;
     color: #fff;
-    margin-top: -5px;
-    margin-bottom: 54px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 48px;
 }
 .consultation_title-mob {
     display: none;
@@ -1000,7 +1028,7 @@ header .menu .item:hover>a::after {
     font-size: var(--font_size);
     line-height: 19px;
     color: #FFFFFF;
-    margin-bottom: 70px;
+    margin-bottom: 44px;
 }
 form .line {
     max-width: 415px;
@@ -1295,12 +1323,13 @@ form button img {
 
 
 /* news */
+.news {
+    padding-top: 64px;
+}
 .news_item {
-    margin-left: 45px;
-    margin-right: 45px;
-    padding: 42px 50px 50px;
+    padding: 42px 55px 50px;
     background: #1D1E21;
-    margin-bottom: 50px;
+    margin-bottom: 56px;
     display: flex;
     flex-direction: column;
 }
@@ -1310,7 +1339,7 @@ form button img {
     justify-content: space-between;
 }
 .news_item-img img {
-    width: 49%;
+    width: 48%;
     display: block;
 }
 .news_item-date {
@@ -1373,14 +1402,14 @@ form button img {
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    margin-left: -176px;
-    margin-bottom: -176px;
+    margin-left: -95px;
+    margin-bottom: -95px;
     flex-wrap: wrap;
 }
 .steps_items > * {
-    width: calc(100%/2 - 176px);
-    margin-left: 176px;
-    margin-bottom: 176px;
+    width: calc(100%/2 - 95px);
+    margin-left: 95px;
+    margin-bottom: 95px;
     padding: 40px 50px;
     border: 1px solid var(--text_color);
     position: relative;
@@ -1406,8 +1435,8 @@ form button img {
 }
 .steps_item-text {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 21px;
+    line-height: 25px;
     color: var(--text_color);
     margin-top: 30px;
 }
@@ -1423,7 +1452,7 @@ form button img {
 .steps_item:nth-child(1)::before {
     position: absolute;
     content: "";
-    width: 176px;
+    width: 96px;
     height: 46px;
     top: 50%;
     left: 100%;
@@ -1758,9 +1787,6 @@ footer .link a {
 .news_item-text a {
     text-decoration: none;
     color: inherit;
-}
-.news-page .news_item-img img {
-
 }
 
 

@@ -411,13 +411,10 @@ header .menu .item>a::after {
     -moz--transition: width .3s ease-in-out;
     transition: width .3s ease-in-out;
 }
-header .menu .item:hover>a{
-    /*font-weight: bold;*/
-}
 header .menu .item:hover>a:after,
 header .menu .item.current-menu-item>a:after {
     width: 100%;
-}
+} 
 header .menu .item:hover>a::after {
     position: absolute;
     content: "";
@@ -1184,6 +1181,9 @@ form button img {
 .price_box {
     width: calc(100% - 434px);
 }
+.price_item:nth-child(2) .price_box {
+    width: calc(100% - 515px);
+}
 .price_text {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1196,7 +1196,6 @@ form button img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .price_logo {
     margin-left: 15px;
@@ -1527,8 +1526,21 @@ form button img {
 .achievements .slick-slide img {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
-
+.achievements .slick-slide { 
+   padding: 0 22px;
+}
+.achievements .lick-list {
+    margin: 0 -22px;
+}
+.achievements_items {
+    padding: 0 71px;
+}
+.achievements .slick-dots {
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 /* footer */

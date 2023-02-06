@@ -1,7 +1,7 @@
 @media print, (max-width: 767px) {
 
     :root {
-        --font_size: 13px;
+        --font_size: 16px;
         --font_size_title: 24px;
     }
     .title {
@@ -21,9 +21,12 @@
         width: 100%;
     }
     .header_contacts .header_contact-phone {
-        font-size: 7px;
-        line-height: 8px;
+        font-size: 12px;
+        line-height: 13px;
         margin-left: 19px;
+    }
+    .nice-select {
+        font-size: 12px;
     }
     .header_contacts .header_contact-phone img {
         width: 15px;
@@ -46,7 +49,7 @@
         padding: 40px 0;
     }
     .first-section {
-        margin-top: 75px;
+        margin-top: 40px;
     }
     .first-section_title-mob {
         font-size: 24px;
@@ -56,6 +59,24 @@
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 20px;
+    }
+    .advantages_item-comment {
+        display: none;
+    }
+    .advantages .cont {
+        position: relative;
+    }
+    .advantages_item-comment-mob {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;       
+        color: #000000;
+        position: absolute;
+        bottom: -30px;
+        right: 20px;
+        width: 150px;
+        text-align: center;
     }
 
 
@@ -76,6 +97,7 @@
     .footer_contacts {
         align-items: center;
         margin-top: 20px;
+        width: 100%;
     }
     .footer_contacts-wrap {
         align-items: center;
@@ -116,19 +138,7 @@
     .advantages_item-wrap > * {
         width: calc(100%/2 - 8px);
         margin-left: 8px;
-        margin-bottom: 55px;   
-    }
-    .advantages_item-comment {
-        display: block;
-        font-weight: 400;
-        font-size: 8px;
-        line-height: 10px;
-        text-align: center;
-        color: #000000;
-        margin-top: 5px;
-        position: absolute;
-        bottom: -24px;
-        left: 0;
+        margin-bottom: 8px;   
     }
     .advantages_item img {
         object-fit: cover;
@@ -279,7 +289,6 @@
         height: 40px;
         font-size: 14px;
         line-height: 40px;
-        padding: 0 100px;
     }
     form button img {
         width: 40px;
@@ -288,6 +297,15 @@
 
     .achievements .slick-slide img {
         padding: 0 7px;
+    }
+
+    .consultation form .line .field input {
+        padding: 6px 0;
+        font-size: 14px;
+    }
+    .consultation_text {
+        margin-bottom: 20px;
+        font-size: 16px;
     }
 
     .price_item {
@@ -312,12 +330,12 @@
     }
 
     .steps_item-title span {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 22px;
     }
     .steps_item-text {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 1.2;
         margin-top: 12px;
     }
     .steps_item-title {
@@ -330,14 +348,14 @@
         order: 3;
     }
     .news_item-date {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 22px;
         margin-top: 0px;
         order: 1;
     }
     .news_item-title {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 22px;
         margin-top: 5px;
         order: 2;
         margin-bottom: 12px;
@@ -478,6 +496,7 @@
 
     .cases_item.active .cases_item-title button {
         transform: rotate(45deg);
+        margin-left: auto;
     }
     .cases_item.active .cases_item-text {
         display: none;
@@ -518,15 +537,6 @@
     .cases_item-img img {
         width: 100%;
     }
-    /*.cases_item-img:before {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
-    }*/
     .cases_item-img span {
         display: none;
         position: absolute;
@@ -547,6 +557,13 @@
 
     .videos_item-img img {
         height: 290px;
+    }
+    .practics_column ul {
+        column-count: 1;
+        column-gap: 0px;
+    }
+    .price_item:nth-child(2) .price_box {
+        width: 100%;
     }
 
 

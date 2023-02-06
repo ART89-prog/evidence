@@ -1,15 +1,18 @@
 @media (max-width: 479px) {
 
     :root {
-        --font_size: 10px;
+        --font_size: 14px;
         --font_size_title: 19px;
     }
+    .first-section {
+        margin-top: 21px;
+    } 
     .footer_callback,
     .footer_menu li a,
     .footer_contact,
     .footer_politic,
     .footer_contract {
-        font-size: 10px;
+        font-size: 12px;
     }
     .footer_callback {
         margin: 0;
@@ -43,6 +46,10 @@
     .footer_contract {
         margin-top: 10px;
     }
+    .first-section_text {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 
 
     .cont {
@@ -62,24 +69,14 @@
         padding: 30px 0;
     }
     .first-section_title-mob {
-        font-size: 19px;
-        line-height: 19px;
-        max-width: 280px;
+        font-size: 22px;
+        line-height: 22px;
+        max-width: 100%;
     }
-    .first-section_text {
-        font-size: 10px;
-        line-height: 12px;
-        max-width: 234px;
-    }
-
     .advantages_item-title {
         font-size: 16px;
         line-height: 16px;
         margin-bottom: 5px;
-    }
-    .advantages_item-text {
-        font-size: 10px;
-        line-height: 12px;
     }
 
     .partners_item a {
@@ -168,28 +165,12 @@
     form button {
         max-width: 100%;
     }
-    .steps_item-title span {
-        font-size: 10px;
-        line-height: 12px;
-    }
-    .steps_item-text {
-        font-size: 10px;
-        line-height: 12px;
-    }
 
     .news_item {
         padding: 20px 8px;
     }
-    .news_item-date {
-        font-size: 10px;
-        line-height: 12px;
-    }
-    .news_item-title {
-        font-size: 10px;
-        line-height: 12px;
-    }
     .news_item-text {
-        line-height: 12px;
+        line-height: 1.2;
     }
     .news_item {
         margin-bottom: 20px;
@@ -264,7 +245,6 @@
     }
 
     .steps_items > *{
-        height: 120px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -354,6 +334,16 @@
 
     .first-section_links{
         max-width: 100%;
+    }
+    .header_contacts .header_contact-phone {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .nice-select {
+        font-size: 10px;
+    }
+    header .menu .item > a {
+        padding: 9px 0 6px;
     }
    
 }

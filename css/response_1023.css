@@ -211,7 +211,7 @@
     }
     .advantages_item-text {
         font-size: 12px;
-        line-height: 18px;
+        line-height: 15px;
     }
     .advantages_bottom .advantages_item:nth-child(1) {
         margin-top: 7px;
@@ -284,11 +284,11 @@
         margin-top: 8px;
     }
     .consultation_img {
-        width: 370px;
-        height: 472px;
+        width: 300px;
+        height: 383px;
     }
     .consultation form {
-        width: calc(100% - 400px);
+        width: calc(100% - 330px);
     }
     form .line {
         margin-bottom: 10px;
@@ -460,9 +460,30 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .videos_item-img img {
+    .videos_item-img {
         height: 360px;
     }
+    .header_contacts .header_contact:nth-child(2) {
+        display: none;
+    }
+
+    .price_item:nth-child(2) .price_box {
+        width: calc(100% - 375px);
+    }
+    .price_bottom {
+        flex-wrap: wrap;
+    }
+    footer .link a {
+        font-size: 19px;
+    }
+    .achievements_items {
+        padding: 0 15px;
+    }
+    .achievements .slick-slide {
+        padding: 0 15px;
+    }
+
+
 
 
     

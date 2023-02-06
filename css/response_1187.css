@@ -4,6 +4,9 @@
         --font_size: 16px;
         --font_size_title: 40px;
     }
+    .btn_callback {
+        display: none;
+    }
     .first-section_info {
         position: relative;
         width: 100%;
@@ -68,7 +71,7 @@
     }
     .achievements .slick-slide img {
         display: block;
-        padding: 0 30px;
+        padding: 0 10px;
         width: 100%;
         height: auto;
     }
@@ -120,10 +123,10 @@
     }
 
     .slick-prev {
-        left: -15px;
+        left: 10px;
     }
     .slick-next {
-        right: -13px;
+        right: 10px;
     }
 
     .cases_item-title br {
@@ -177,6 +180,9 @@
     .tabs button {
         font-size: 20px;
         line-height: 25px;
+    }
+    .consultation_title {
+        font-size: var(--font_size_title);
     }
 
 

@@ -1167,11 +1167,11 @@ form button img {
     margin-bottom: 80px;
 }
 .price_item-img {
-    width: 440px;
-    height: 572px;
+    width: 380px;
+    height: 523px;
 }
 .price_item-img2{
-    width: 440px;
+    width: 435px;
     height: 659px;
 }
 .price_item-img img {
@@ -1182,7 +1182,7 @@ form button img {
     max-width: 481px;
 }
 .price_box {
-    width: calc(100% - 515px);
+    width: calc(100% - 434px);
 }
 .price_text {
     margin-top: 50px;
@@ -1416,6 +1416,7 @@ form button img {
 }
 .steps_item-title {
     display: flex;
+    align-items: center;
 }
 .steps_item-title span {
     font-weight: 700;
@@ -1453,7 +1454,7 @@ form button img {
     position: absolute;
     content: "";
     width: 96px;
-    height: 46px;
+    height: 43px;
     top: 50%;
     left: 100%;
     transform: translateY(-50%);
@@ -1462,8 +1463,8 @@ form button img {
 .steps_item:nth-child(2)::before {
     position: absolute;
     content: "";
-    width: 46px;
-    height: 176px;
+    width: 43px;
+    height: 96px;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -1472,8 +1473,8 @@ form button img {
 .steps_item:nth-child(3)::before {
     position: absolute;
     content: "";
-    width: 176px;
-    height: 46px;
+    width: 96px;
+    height: 43px;
     top: 50%;
     left: 100%;
     transform: translateY(-50%);
@@ -1482,8 +1483,8 @@ form button img {
 .steps_item:nth-child(3)::after {
     position: absolute;
     content: "";
-    width: 46px;
-    height: 176px;
+    width: 43px;
+    height: 96px;
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -1492,8 +1493,8 @@ form button img {
 .steps_item:nth-child(5)::before {
     position: absolute;
     content: "";
-    width: 176px;
-    height: 46px;
+    width: 96px;
+    height: 43px;
     top: 50%;
     left: 100%;
     transform: translateY(-50%);

@@ -1,5 +1,12 @@
 $(() => {
 
+
+    //setTimeout(() => setHeight($(swiper.$el).find('.review')))
+    if ($(window).width() < 480) {
+        $(".cases_items .cases_item").addClass("active");
+        $(".cases_items .cases_item:first-child").removeClass("active");
+    }
+
     // Моб. меню
     $('header .mob_menu_btn').click((e) => {
         e.preventDefault()
@@ -168,3 +175,5 @@ $(() => {
 
 
 })
+
+

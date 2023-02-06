@@ -1,3 +1,6 @@
+WW = window.innerWidth || document.clientWidth || document.getElementsByTagName('body')[0].clientWidth
+WH = window.innerHeight || document.clientHeight || document.getElementsByTagName('body')[0].clientHeight
+
 $(() => {
 	// Есть ли поддержка тач событий или это apple устройство
 	if (!is_touch_device() || !/(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) $('html').addClass('custom_scroll')
@@ -66,7 +69,7 @@ $(() => {
 		let id = $(this).attr("href");
 
 		$("html, body").animate({
-				scrollTop: $(id).offset().top + 20
+				scrollTop: $(id).offset().top - 50
 			}, {
 				duration: 1500,
 				easing: "swing"
@@ -74,15 +77,16 @@ $(() => {
 	});
 
 
-	// Fancybox
-	// Fancybox.defaults.autoFocus = false
-	// Fancybox.defaults.dragToClose = false
-	// Fancybox.defaults.l10n = {
-	// 	CLOSE: "Закрыть",
-	// 	NEXT: "Следующий",
-	// 	PREV: "Предыдущий",
-	// 	MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
-	// }
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.trapFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.placeFocusBack = false
+	Fancybox.defaults.l10n = {
+		CLOSE: "Закрыть",
+		NEXT: "Следующий",
+		PREV: "Предыдущий",
+		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
+	}
 
 
 
@@ -94,12 +98,11 @@ $(() => {
 
 
 	// Моб. версия
-	fiestResize = false
+	fakeResize = false
+	fakeResize2 = true
 
-	if ($(window).width() < 360) {
-		$('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
-
-		fiestResize = true
+	if (document.body.clientWidth < 360) {
+		document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
 	}
 
 
@@ -126,19 +129,18 @@ $(() => {
 })
 
 
+// Вспомогательные функции
+const setHeight = className => {
+	let maxheight = 0
 
-$(window).resize(() => {
-	// Моб. версия
-	if (!fiestResize) {
-		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
-		if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+	className.each(function () {
+		let elHeight = $(this).outerHeight()
 
-		fiestResize = true
-	} else {
-		fiestResize = false
-	}
-})
+		if (elHeight > maxheight) maxheight = elHeight
+	})
 
+	className.outerHeight(maxheight)
+}
 
 
 // Вспомогательные функции
@@ -160,3 +162,32 @@ const widthScroll = () => {
 
 	return scrollWidth
 }
+
+window.addEventListener('resize', function () {
+	WH = window.innerHeight || document.clientHeight || document.getElementsByTagName('body')[0].clientHeight
+
+	let windowW = window.outerWidth
+
+	if (typeof WW !== 'undefined' && WW != windowW) {
+		
+		// Перезапись ширины окна
+		WW = window.innerWidth || document.clientWidth || document.getElementsByTagName('body')[0].clientWidth
+
+		// Моб. версия
+		if (!fakeResize) {
+			fakeResize = true
+			fakeResize2 = false
+
+			document.getElementsByTagName('meta')['viewport'].content = 'width=device-width, initial-scale=1, maximum-scale=1'
+		}
+
+		if (!fakeResize2) {
+			fakeResize2 = true
+
+			if (windowW < 360) document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
+		} else {
+			fakeResize = false
+			fakeResize2 = true
+		}
+	}
+})

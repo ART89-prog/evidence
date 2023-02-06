@@ -518,7 +518,7 @@
     .cases_item-img img {
         width: 100%;
     }
-    .cases_item-img:before {
+    /*.cases_item-img:before {
         position: absolute;
         content: "";
         width: 100%;
@@ -526,9 +526,9 @@
         top: 0;
         left: 0;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
-    }
+    }*/
     .cases_item-img span {
-        display: block;
+        display: none;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -539,6 +539,7 @@
         color: #000000;    
         padding: 9px 38px;
         background: #FFFFFF;
+
     }
     .cases .view-link {
         font-size: 20px;

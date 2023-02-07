@@ -223,15 +223,6 @@
         left: -10px;
         background-size: cover;
     }
-    .partners_items {
-        margin-left: 0px;
-        margin-bottom: -20px;
-    }
-    .partners_items > * {
-        width: 100%;
-        margin-left: 0px;
-        margin-bottom: 20px;
-    }
 
     .practics,
     .consultation {
@@ -249,20 +240,14 @@
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 20px;
-        padding-left: 35px;
     }
-    .practics_column ul li::after {
-        width: 20px;
-        height: 10px;
-        top: 5px;
-        background-size: cover;
-    }
+
     .practics_wrap {
         column-count: 1;
         column-gap: 0px;
     }
     .practics_column:first-child {
-        margin-bottom: 50px;
+        margin-bottom: 45px;
     }
     .practics_text img {
         width: 25px;
@@ -281,7 +266,7 @@
         line-height: 22px;
     }
     .team_item-info {
-        margin-top: 8px;
+        margin-top: 14px;
     }
     .consultation_img {
         width: 300px;
@@ -460,9 +445,6 @@
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .videos_item-img {
-        height: 360px;
-    }
     .header_contacts .header_contact:nth-child(2) {
         display: none;
     }
@@ -481,6 +463,34 @@
     }
     .achievements .slick-slide {
         padding: 0 15px;
+    }
+    .videos_item-img {
+        width: 100%;
+        height: 100%;
+    }
+    .video_item {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .modal_consult {
+        padding: 76px 20px 54px;
+    }
+    .modal_consult-wrap {
+        width: calc(100% - 330px);
+    }
+    .modal_consult-img {
+        width: 300px;
+        height: 373px;
+    }
+    .modal_consult-title {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .modal_consult-info ul li {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
     }
 
 

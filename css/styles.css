@@ -382,7 +382,7 @@ header .menu .cont {
 }
 header .menu .item > a {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     color: var(--text_color);
     position: relative;
@@ -456,9 +456,9 @@ header .menu .item:hover>a::after {
     display: block;
     text-decoration: none;
     margin-left: 46px;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 15px;
     color: #FFFFFF;
     white-space: nowrap;
@@ -498,7 +498,7 @@ header .menu .item:hover>a::after {
     margin-left: 19px;
     display: block;
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
@@ -561,7 +561,7 @@ header .menu .item:hover>a::after {
 }
 .first-section_text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     text-align: center;    
     color: var(--text_color);
@@ -590,7 +590,7 @@ header .menu .item:hover>a::after {
     background: #B79E5C;
     font-family: var(--font_family);
     font-weight: 600;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 50px;
     color: #FFFFFF;
     display: flex;
@@ -657,7 +657,7 @@ header .menu .item:hover>a::after {
 }
 .advantages_item-text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
@@ -923,7 +923,7 @@ header .menu .item:hover>a::after {
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .video-play {
     position: absolute;
@@ -1889,7 +1889,7 @@ footer .link a {
     font-size: var(--font_size);
     line-height: 19px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 30px;
     color: #666666;
 }
@@ -1995,7 +1995,7 @@ footer .link a {
     margin-left: 0px;
 }
 .payment .nice-select {
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 400;
     font-size: var(--font_size);
     line-height: 30px;
@@ -2167,13 +2167,22 @@ footer .link a {
 .modal_consult-wrap {
     width: calc(100% - 461px);
 }
+.modal_consult-img {
+    width: 383px;
+    height: 476px;
+}
+.modal_consult-img img {
+    width: 100%;
+    height: 100%;
+}
+
 .modal_consult-info ul {
     list-style: none;
 }
 .modal_consult-info ul li {
     padding-left: 57px;
     position: relative;
-    font-family: 'Inter';
+    font-family: var(--font_family);
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;

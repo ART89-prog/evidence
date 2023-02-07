@@ -60,6 +60,22 @@
     .block {
         padding: 80px 0;
     }
+    .partners_item {
+        height: auto;
+        padding: 17px;
+    }
+    .partners_item-name br {
+        display: none;
+    }
+    .partners_items {
+        margin-left: -20px;
+        margin-bottom: -25px;
+    }
+    .partners_items > * {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
 
 
     .footer_menu {

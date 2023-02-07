@@ -6,6 +6,7 @@
     }
     .first-section {
         margin-top: 21px;
+        padding-bottom: 21px;
     } 
     .footer_callback,
     .footer_menu li a,
@@ -99,30 +100,9 @@
         line-height: 1.2;
     }
 
-    .practics_subtitle {
-        font-size: 14px;
-        line-height: 17px;
-        margin-bottom: 10px;
-    }
-    .practics_column ul li::after {
-        width: 14px;
-        height: 7px;
-        top: 3px;
-        background-size: cover;
-    }
-    .practics_column ul li {
-        font-size: 10px;
-        line-height: 12px;
-        margin-bottom: 5px;
-        padding-left: 22px;
-    }
     .practics_text {
         margin-top: 30px;
         font-size: 14px;
-        line-height: 17px;
-    }
-    .team_item-name {
-        font-size: 13px;
         line-height: 17px;
     }
     .team_item-info {
@@ -307,7 +287,18 @@
     }
 
     .videos_item-img img {
-        height: 200px;
+        height: 134px;
+    }
+    .video_item {
+        height: 134px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .video .slick-prev {
+        left: -5px;
+    }
+    .video .slick-next {
+        right: -5px;
     }
 
 

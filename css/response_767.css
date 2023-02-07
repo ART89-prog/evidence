@@ -190,9 +190,12 @@
     }
     .practics_column ul li {
         font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 15px;
-        padding-left: 35px;
+        line-height: 17px;
+        margin-bottom: 25px;
+        padding-left: 57px;
+    }
+    .practics_column ul li::after {
+        top: 0;
     }
     .practics_text {
         margin-top: 40px;
@@ -207,16 +210,22 @@
     .team_items > * {
         width: calc(100%/2 - 8px);
         margin-left: 8px;
-        margin-bottom: 30px;
+        margin-bottom: 21px;
     }
     .team_item-name {
         font-size: 15px;
-        line-height: 20px;
+        line-height: 15px;
+        margin-bottom: 1px;
     }
     .team_item-link img {
         width: 35px;
         height: 15px;
         background-size: cover;
+    }
+    .team_item-post {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 4px;
     }
 
     .video-play {
@@ -564,6 +573,21 @@
     }
     .price_item:nth-child(2) .price_box {
         width: 100%;
+    }
+    .partners_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .partners_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .partners_item {
+        padding: 32px 19px;
+    }
+    .video_item {
+        height: 290px;
     }
 
 

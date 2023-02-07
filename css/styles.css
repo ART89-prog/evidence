@@ -2236,6 +2236,9 @@ footer .link a {
 .modal_consult-img-mob {
     display: none;
 }
+.modal_callback form button {
+    max-width: 100%;
+}
 
 
 @media print, (min-width: 1023px) {

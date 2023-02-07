@@ -101,9 +101,9 @@
     }
 
     .practics_text {
-        margin-top: 30px;
-        font-size: 14px;
-        line-height: 17px;
+        margin-top: 35px;
+        font-size: 16px;
+        line-height: 19px;
     }
     .team_item-info {
         flex-direction: column;
@@ -304,7 +304,7 @@
     }
 
     .practics_text img{
-        margin-top: 1px;
+        margin-top: -2px;
     }
     .first-section_img img{
         display: block;
@@ -364,5 +364,19 @@
     .price_logo img {
         width: 100%;
     }
+    .achievements .slick-slide {
+        padding: 0px;
+    }
+    .achievements .slick-prev {
+        left: -5px;
+    }
+    .achievements .slick-next {
+        right: -5px;
+    }
+    .partners_item-name {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
    
 }

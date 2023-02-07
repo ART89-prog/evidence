@@ -365,12 +365,12 @@
     .news_item-title {
         font-size: 18px;
         line-height: 22px;
-        margin-top: 5px;
+        margin-top: 14px;
         order: 2;
-        margin-bottom: 12px;
+        margin-bottom: 21px;
     }
     .news_item-text {
-        margin-top: 12px;
+        margin-top: 28px;
         order: 4;
         line-height: 17px;
     }

@@ -602,6 +602,19 @@
         width: 100%;
     }
 
+    .achievements .slick-dots {
+        bottom: -30px;
+    }
+    .video .slick-dots {
+        bottom: -30px;
+    }
+    .steps_items > * {
+        min-height: auto;
+    }
+    .modal_consult form .line .field input {
+        padding: 10px 0;
+    }
+
 
 
 }

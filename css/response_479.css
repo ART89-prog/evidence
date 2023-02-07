@@ -67,7 +67,7 @@
         line-height: 40px;
     }
     .block {
-        padding: 30px 0;
+        padding: 25px 0;
     }
     .first-section_title-mob {
         font-size: 22px;
@@ -180,7 +180,7 @@
         padding: 10px 0;
     }
     form .line .field textarea {
-        padding: 10px 0;
+        padding: 6px 0;
     }
 
     .breadcrumbs {
@@ -250,7 +250,7 @@
         padding: 20px 8px;
     }
     .cases_item-text {
-        line-height: 12px;
+        line-height: 1.2;
         margin-bottom: 20px;
     }
     .cases .view-link {
@@ -376,6 +376,12 @@
     .partners_item-name {
         font-size: 10px;
         line-height: 12px;
+    }
+    .modal_consult {
+        padding: 76px 10px 54px;
+    }
+    .modal_consult form .line .field input {
+        padding: 12px 0 8px;
     }
 
    

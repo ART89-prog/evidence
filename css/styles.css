@@ -790,7 +790,7 @@ header .menu .item:hover>a::after {
 
 /* practics */
 .practics {
-    padding: 106px 0;
+    padding: 106px 0 113px;
     margin-top: 76px;
     margin-bottom: 50px;
     background: #1D1E21;
@@ -801,6 +801,7 @@ header .menu .item:hover>a::after {
 .practics_title {
     text-align: start;
     color: #FFFFFF;
+    margin-bottom: 43px;
 }
 .practics_subtitle {
     font-weight: 700;
@@ -811,7 +812,7 @@ header .menu .item:hover>a::after {
     margin-bottom: 24px;
 }
 .practics_text {
-    margin-top: 80px;
+    margin-top: 55px;
     text-align: start;
     font-weight: 700;
     font-size: 36px;
@@ -830,7 +831,7 @@ header .menu .item:hover>a::after {
     list-style: none;
     break-inside: avoid-column;
     column-count: 2;
-    column-gap: 40px;
+    column-gap: 35px;
 }
 .practics_column ul li {
     padding-left: 57px;
@@ -859,6 +860,7 @@ header .menu .item:hover>a::after {
 /* team */
 .team {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .team_items {
     display: flex;
@@ -910,6 +912,9 @@ header .menu .item:hover>a::after {
 
 
 /* video */
+.video {
+    padding-top: 40px;
+}
 .video_item {
     position: relative;
 }
@@ -969,8 +974,8 @@ header .menu .item:hover>a::after {
     border-top: 4px solid #B79E5C;
     border-right: 4px solid #B79E5C;
 }
-.slick-dots {
-    bottom: -60px;
+.video .slick-dots {
+    bottom: -80px;
 }
 .slick-dots li {
     background: #A6A6A6;
@@ -995,8 +1000,8 @@ header .menu .item:hover>a::after {
 
 /* consultation */
 .consultation {
-    padding: 150px 0;
-    margin-top: 100px;
+    padding: 147px 0;
+    margin-top: 40px;
     margin-bottom: 64px;
     background: #1D1E21;
 }
@@ -1161,7 +1166,7 @@ form button img {
 /* price */
 .price {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 83px;
 }
 .price_title {
     text-align: start;
@@ -1171,7 +1176,7 @@ form button img {
     justify-content: space-between;
 }
 .price_item:first-child {
-    margin-bottom: 80px;
+    margin-bottom: 128px;
 }
 .price_item-img {
     width: 380px;
@@ -1190,9 +1195,11 @@ form button img {
 }
 .price_box {
     width: calc(100% - 434px);
+    margin-top: 14px;
 }
 .price_item:nth-child(2) .price_box {
     width: calc(100% - 515px);
+    margin-top: 0;
 }
 .price_text {
     margin-top: 50px;
@@ -1207,15 +1214,12 @@ form button img {
     align-items: center;
     justify-content: space-between;
 }
-.price_logo {
-    margin-left: 15px;
-}
 .price_item ul li {
     font-weight: 400;
     font-size: var(--font_size);
     line-height: 19px;    
     color: var(--text_color);
-    padding-bottom: 30px;
+    padding-bottom: 33px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1254,7 +1258,7 @@ form button img {
     padding: 50px;
     background: #FFFFFF;
     border: 2px solid var(--text_color);
-    margin-bottom: 50px;
+    margin-bottom: 63px;
 }
 .cases_item-info {
     width: calc(100% - 285px);
@@ -1355,7 +1359,7 @@ form button img {
     line-height: 29px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 50px;
+    margin-top: 55px;
 }
 .news_item-title {
     font-weight: 700;
@@ -1369,7 +1373,7 @@ form button img {
     font-size: var(--font_size);
     line-height: 19px;
     color: #FFFFFF;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 .news_item-text ul {
     list-style: none;
@@ -1420,6 +1424,7 @@ form button img {
     padding: 40px 29px 40px 50px;
     border: 1px solid var(--text_color);
     position: relative;
+    min-height: 313px;
 }
 .steps_item-title {
     display: flex;
@@ -1532,7 +1537,7 @@ form button img {
 
 /* achievements */
 .achievements {
-    padding: 83px 0 200px;
+    padding: 83px 0 178px;
 }
 .achievements .slick-slide img {
     display: block;
@@ -1549,6 +1554,7 @@ form button img {
     padding: 0 71px;
 }
 .achievements .slick-dots {
+    bottom: -83px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -1568,6 +1574,7 @@ footer .cont {
     columns: 2;
     column-gap: 40px;
     width: 350px;
+    margin-top: 8px;
 }
 .footer_menu li {
     margin-bottom: 30px;
@@ -1629,7 +1636,7 @@ footer .link a {
     font-size: var(--font_size);
     line-height: 25px;
     color: #FFFFFF;
-    margin-bottom: 22px;
+    margin-bottom: 18px;
     transition: all .4s;
 }
 .footer_contact:hover {

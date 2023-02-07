@@ -653,7 +653,7 @@ header .menu .item:hover>a::after {
     line-height: 28px;
     text-transform: uppercase;    
     color: #FFFFFF; 
-    margin-bottom: 25px;
+    margin-bottom: 9px;
 }
 .advantages_item-text {
     font-weight: 400;
@@ -744,6 +744,7 @@ header .menu .item:hover>a::after {
 .partners_item {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     border: 1px solid var(--text_color);
     padding: 53px 43px 46px 55px;
     height: 211px;
@@ -759,7 +760,7 @@ header .menu .item:hover>a::after {
     font-size: 12px;
     line-height: 15px;
     color: var(--text_color);
-    margin-bottom: 30px;
+    margin-bottom: 18px;
 }
 .partners_item-logo img {
     width: 100%;
@@ -831,7 +832,7 @@ header .menu .item:hover>a::after {
     list-style: none;
     break-inside: avoid-column;
     column-count: 2;
-    column-gap: 35px;
+    column-gap: 10px;
 }
 .practics_column ul li {
     padding-left: 57px;
@@ -1203,7 +1204,7 @@ form button img {
 }
 .price_text {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 67px;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -1219,7 +1220,7 @@ form button img {
     font-size: var(--font_size);
     line-height: 19px;    
     color: var(--text_color);
-    padding-bottom: 33px;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1242,7 +1243,7 @@ form button img {
 }
 .price_item-col {
     white-space: nowrap;
-    margin-left: 15px;
+    margin-left: 9px;
 }
 .price_item .link {
     margin-bottom: 15px;
@@ -1375,6 +1376,9 @@ form button img {
     color: #FFFFFF;
     margin-top: 32px;
 }
+.news_item-text p a {
+    text-decoration: underline;
+}
 .news_item-text ul {
     list-style: none;
 }
@@ -1421,7 +1425,7 @@ form button img {
     width: calc(100%/2 - 95px);
     margin-left: 95px;
     margin-bottom: 95px;
-    padding: 40px 29px 40px 50px;
+    padding: 39px 36px 40px 50px;
     border: 1px solid var(--text_color);
     position: relative;
     min-height: 313px;
@@ -1613,7 +1617,7 @@ footer .cont {
     margin-bottom: 20px;
 }
 .footer_callback-copyright {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 footer .link a {
     width: 100%;
@@ -1636,17 +1640,28 @@ footer .link a {
     font-size: var(--font_size);
     line-height: 25px;
     color: #FFFFFF;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
     transition: all .4s;
+    cursor: pointer;
+}
+.footer_contact-box {
+    display: block;
 }
 .footer_contact:hover {
     color: #E0C889;
 }
 .footer_contact img {
-    margin-right: 10px;
+    margin-right: 12px;
 }
-.footer_contact-mesenger img:first-child {
-    margin-right: 6px;
+.footer_contact-box span {
+    margin-left: 12px;
+    display: block;
+}
+.footer_contact-mesenger a img {
+    margin-right: 4px;
+}
+.footer_contact-mesenger a:last-child img {
+    margin-right: 12px;
 }
 .footer_politic {
     font-weight: 400;

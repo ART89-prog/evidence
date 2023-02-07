@@ -127,9 +127,6 @@
     .price_logo {
         margin: 0 auto;
     }
-    .price_text {
-        font-size: var(--font_size);
-    }
     .price_item .link {
         width: 100%;
     }
@@ -140,7 +137,7 @@
         line-height: 17px;
     }
     .price_item ul li {
-        line-height: 12px;
+        line-height: 1.2;
     }
     form button {
         max-width: 100%;
@@ -335,6 +332,37 @@
     }
     header .menu .item > a {
         padding: 9px 0 6px;
+    }
+
+    .modal_consult-title {
+        font-size: 18x;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .modal_consult-info ul li {
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 30px;
+    }
+    .modal_consult-info ul li::after {
+        top: -2px;
+    }
+    .modal_consult-img-mob img {
+        width: 100%;
+        height: auto;
+    }
+    .price_item ul li {
+        margin-top: 16px;
+        padding-bottom: 16px;
+    }
+    .price_item .link {
+        margin-right: 0;
+    }
+    .price_logo {
+        width: 100%;
+    }
+    .price_logo img {
+        width: 100%;
     }
    
 }

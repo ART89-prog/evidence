@@ -589,6 +589,18 @@
     .video_item {
         height: 290px;
     }
+    .modal_consult-img-mob {
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+    .modal_consult-img {
+        display: none;
+    }
+    .modal_consult-wrap {
+        width: 100%;
+    }
 
 
 

@@ -2225,6 +2225,17 @@ footer .link a {
 .modal_consult form .line .field input:-ms-input-placeholder {
     color: #000;
 }
+.modal_consult form .line {
+    max-width: 100%;
+}
+.modal_consult form button {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.modal_consult-img-mob {
+    display: none;
+}
 
 
 @media print, (min-width: 1023px) {

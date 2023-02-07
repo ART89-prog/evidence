@@ -200,6 +200,26 @@
     .consultation_title {
         font-size: var(--font_size_title);
     }
+    .modal_consult {
+        padding: 85px 20px 54px;
+    }
+    .modal_consult-wrap {
+        width: calc(100% - 330px);
+    }
+    .modal_consult-img {
+        width: 300px;
+        height: 373px;
+    }
+    .modal_consult-title {
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .modal_consult-info ul li {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
 
 
 

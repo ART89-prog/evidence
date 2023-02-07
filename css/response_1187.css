@@ -186,9 +186,6 @@
     .tabs_container form {
         width: calc(100% - 470px);
     }
-    .payment form button{
-        max-width: 100%;
-    }
     .tabs button.active {
         font-size: 20px;
         line-height: 25px;

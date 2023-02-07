@@ -111,7 +111,11 @@ $(() => {
 
 
 
+
     $('select').niceSelect();
+
+
+
 
 
     $(document).on('change', '.error', function () {

@@ -180,7 +180,7 @@
         padding: 10px 0;
     }
     form .line .field textarea {
-        padding: 6px 0;
+        padding: 6px 0 0;
     }
 
     .breadcrumbs {
@@ -382,6 +382,9 @@
     }
     .modal_consult form .line .field input {
         padding: 12px 0 8px;
+    }
+    .payment form button{
+        max-width: 100%;
     }
 
    

@@ -1059,6 +1059,19 @@ form .line .field input {
     line-height: 19px;
     color: #FFFFFF;
 }
+form .line .field input[type="tel"] {
+    width: 100%;
+    border: none;
+    background: #1D1E21;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 16px 0;
+    font-family: var(--font_family);
+    font-weight: 400;
+    font-size: var(--font_size);
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-left: 70px;
+}
 form .line .field input::placeholder {
     font-family: var(--font_family);
     font-weight: 400;
@@ -2001,17 +2014,15 @@ footer .link a {
     justify-content: center;
 }
 .tab_content-box2 form .line:nth-child(4) .field:nth-child(1) {
-    max-width: 147px;
+    width: 147px;
     margin-right: 28px;
-    width: 24%;
 }
 .tab_content-box2 form .line:nth-child(4) .field:nth-child(2) {
-    max-width: 151px;
+    width: 151px;
     margin-right: 28px;
-    width: 24%;
 }
 .tab_content-box2 form .line:nth-child(4) .field:nth-child(3) {
-    width: calc(100% - 376px);
+    width: calc(100% - 386px);
 }
 .tab_content-box2 form .line:nth-child(4) {
     margin-left: 0px;
@@ -2198,10 +2209,10 @@ footer .link a {
     height: 100%;
 }
 
-.modal_consult-info ul {
+.modal_consult-wrap ul {
     list-style: none;
 }
-.modal_consult-info ul li {
+.modal_consult-wrap ul li {
     padding-left: 57px;
     position: relative;
     font-family: var(--font_family);
@@ -2209,9 +2220,9 @@ footer .link a {
     font-size: 21px;
     line-height: 25px;
     color: #000000;
-    margin-bottom: 34px;
+    margin-bottom: 32px;
 }
-.modal_consult-info ul li::after {
+.modal_consult-wrap ul li::after {
     position: absolute;
     content: "";
     width: 44px;
@@ -2262,6 +2273,47 @@ footer .link a {
     max-width: 100%;
 }
 
+
+.iti__arrow {
+    margin-left: 12px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #fff;
+}
+.iti {
+    width: 100%;
+}
+.iti__country-name {
+    color: #000;
+}
+
+.modal_consult .iti__country:after {
+    display: none;
+}
+.modal_consult .iti__divider:after {
+    display: none;
+}
+.modal_consult .iti__country {
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+.modal_consult .iti__divider {
+    padding-left: 5px;
+    margin-bottom: 0;
+}
+.modal_consult form .line .field input[type="tel"] {
+    padding-left: 70px;
+}
+.modal_consult .iti__arrow {
+    margin-left: 12px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #000;
+}
 
 @media print, (min-width: 1023px) {
 

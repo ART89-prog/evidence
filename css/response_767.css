@@ -307,14 +307,20 @@
     .achievements .slick-slide img {
         padding: 0 7px;
     }
-
     .consultation form .line .field input {
         padding: 6px 0;
+        font-size: 14px;
+    }
+    .consultation form .line .field input[type="tel"] {
+        padding: 6px 0 6px 70px;
         font-size: 14px;
     }
     .consultation_text {
         margin-bottom: 20px;
         font-size: 16px;
+    }
+    form .line .field textarea {
+        padding: 6px 0 0;
     }
 
     .price_item {
@@ -336,6 +342,9 @@
     }
     .price_item:first-child {
         margin-bottom: 30px;
+    }
+    .consultation .iti__country-list {
+        width: calc(100% + 250px);
     }
 
     .steps_item-title span {

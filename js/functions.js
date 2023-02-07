@@ -53,9 +53,8 @@ $(() => {
 
 
 
-
-	var input = document.querySelector("#phone3");
-	window.intlTelInput(input, {
+	var input3 = document.querySelector("#phone3");
+	window.intlTelInput(input3, {
 		// allowDropdown: false,
 		autoHideDialCode: true,
 		//   autoPlaceholder: "off",
@@ -78,6 +77,15 @@ $(() => {
 		// separateDialCode: true,
 		utilsScript: "js/utils.js",
 	});
+
+
+
+
+
+
+
+
+
 
 
 	// Табы

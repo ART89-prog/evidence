@@ -5,7 +5,7 @@
         --font_size_title: 19px;
     }
     .first-section {
-        margin-top: 21px;
+        margin-top: 2px;
         padding-bottom: 21px;
     } 
     .footer_callback,
@@ -81,19 +81,24 @@
     }
 
     .partners_item a {
-        max-width: 136px;
-        height: 35px;
-        line-height: 35px;
+        max-width: 170px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
     }
-    .partners_item-name {
+    .partners_items > * {
+        min-height: 160px;
+    }
+    .partners_item .partners_item-name {
+        max-width: 186px;
         margin-bottom: 8px;
     }
     .practics,
     .consultation {
         margin-top: 20px;
-        margin-bottom: 20px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        margin-bottom: 25px;
+        padding-top: 46px;
+        padding-bottom: 40px;
     }
 
     .consultation_text {
@@ -242,12 +247,12 @@
         margin-bottom: 12px;
     }
     .cases_item-title-img {
-        width: 20%;
+        width: 17%;
         height: auto;
     }
     .cases_item {
-        margin-bottom: 30px;
-        padding: 20px 8px;
+        margin-bottom: 25px;
+        padding: 20px 20px 30px;
     }
     .cases_item-text {
         line-height: 1.2;
@@ -385,6 +390,50 @@
     }
     .payment form button{
         max-width: 100%;
+    }
+
+    .first-section_links {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .advantages {
+        padding-bottom: 50px;
+    }
+    .team {
+        padding-bottom: 12px;
+    }
+    .cases {
+        padding-top: 5px;
+    }
+    .iti-mobile .iti__country-list {
+        width: 85%;
+    }
+    .steps_title {
+        text-align: center;
+    }
+    .news {
+        padding-bottom: 37px;
+    }
+    .steps_items {
+        margin-bottom: -30px;
+    }
+    .steps_items > * {
+        margin-bottom: 30px;
+    }
+    .price_item-col {
+        text-align: end;
+    }
+    .price_item-col br {
+        display: block;
+    }
+    .price_item-name {
+        max-width: 222px;
+    }
+    .achievements {
+        padding-bottom: 37px;
+    }
+    footer {
+        padding: 22px 0;
     }
 
    

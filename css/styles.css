@@ -2045,7 +2045,7 @@ footer .link a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color:#000;
+    color:#666;
 }
 .payment .nice-select:after {
     border-color: #000 transparent transparent transparent;

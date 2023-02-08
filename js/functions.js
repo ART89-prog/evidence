@@ -26,7 +26,7 @@ $(() => {
 	// $('input[type=tel]').inputmask('+7 (999) 999-99-99')
 
 
-
+	if(input) {}
 	var input = document.querySelector("#phone");
 	if (window.intlTelInput(input, {
 		// allowDropdown: false,

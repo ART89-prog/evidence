@@ -447,7 +447,12 @@
         width: calc(100% - 375px);
     }
     .price_bottom {
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .price_logo {
+        margin-top: 15px;
     }
     footer .link a {
         font-size: 19px;
@@ -479,6 +484,7 @@
     .first-section {
         padding-bottom: 40px;
     }
+
 
 
 

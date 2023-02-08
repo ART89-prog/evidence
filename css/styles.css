@@ -1208,16 +1208,16 @@ form button img {
     max-width: 481px;
 }
 .price_box {
-    width: calc(100% - 434px);
-    margin-top: 14px;
-}
-.price_item:nth-child(2) .price_box {
     width: calc(100% - 515px);
     margin-top: 0;
 }
+.price_box-top {
+    width: calc(100% - 434px);
+    margin-top: 14px;
+}
 .price_text {
     margin-top: 50px;
-    margin-bottom: 67px;
+    margin-bottom: 71px;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -1228,7 +1228,7 @@ form button img {
     align-items: center;
     justify-content: space-between;
 }
-.price_item ul li {
+.price_box ul li {
     font-weight: 400;
     font-size: var(--font_size);
     line-height: 19px;    
@@ -1240,10 +1240,14 @@ form button img {
     border-bottom: 2px solid #626262; 
     margin-top: 28px; 
 }
-.price_item ul li:first-child {
+.price_box-top ul li {
+    margin-top: 32px;
+    padding-bottom: 29px;
+}
+.price_box ul li:first-child {
     margin-top: 0;
 }
-.price_item ul li:last-child {
+.price_box ul li:last-child {
     border: none;
     padding-bottom: 0;
 }
@@ -1259,7 +1263,7 @@ form button img {
     margin-left: 9px;
 }
 .price_item .link {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     margin-right: 15px;
 }
 .price_item-col br {
@@ -2318,6 +2322,9 @@ footer .link a {
     border-right: 8px solid transparent;
     border-top: 10px solid #000;
 }
+/* .iti-mobile .iti__country-list {
+    width: 85%;
+} */
 
 @media print, (min-width: 1023px) {
 

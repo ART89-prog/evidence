@@ -365,6 +365,10 @@
     }
     .price_logo {
         width: 100%;
+        margin-top: 22px;
+    }
+    .price_box-top {
+        margin-top: 0;
     }
     .price_logo img {
         width: 100%;
@@ -405,9 +409,7 @@
     .cases {
         padding-top: 5px;
     }
-    .iti-mobile .iti__country-list {
-        width: 85%;
-    }
+
     .steps_title {
         text-align: center;
     }

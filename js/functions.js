@@ -28,7 +28,7 @@ $(() => {
 
 	
 	var input = document.querySelector("#phone");
-	if (window.intlTelInput(input, {
+	(window.intlTelInput(input, {
 		// allowDropdown: false,
 		autoHideDialCode: true,
 		//   autoPlaceholder: "off",
@@ -52,8 +52,9 @@ $(() => {
 		utilsScript: "js/utils.js",
 	}));
 
+
 	var input2 = document.querySelector("#phone2");
-	if (window.intlTelInput(input2, {
+	(window.intlTelInput(input2, {
 		// allowDropdown: false,
 		autoHideDialCode: true,
 		//   autoPlaceholder: "off",

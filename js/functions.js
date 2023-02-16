@@ -117,18 +117,6 @@ $(() => {
 
 
 
-	// Скрол к пунктам меню
-	$(".scroll").on("click", function (e) {
-		e.preventDefault();
-		let id = $(this).attr("href");
-
-		$("html, body").animate({
-			scrollTop: $(id).offset().top - 50
-		}, {
-			duration: 1500,
-			easing: "swing"
-		});
-	});
 
 
 	Fancybox.defaults.autoFocus = false

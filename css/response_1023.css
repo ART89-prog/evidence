@@ -17,7 +17,7 @@
         position: fixed;
         z-index: 107;
         top: 110px;
-        left: 0;
+        right: 100%;
         display: flex;
         overflow: auto;
         width: 100%;
@@ -28,15 +28,15 @@
         margin: 0;
         padding: 50px 0px 20px;
         transition: transform .3s linear;
-        transform: translateX(-100%);
         background: #fff;
         justify-content: flex-start;
         align-items: flex-start;
         align-content: flex-start;
-        flex-wrap: wrap;        
+        flex-wrap: wrap;      
+        overscroll-behavior: none;  
     }
     header .menu.show {
-        transform: translateX(0);
+        transform: translateX(100%);
     }
     .menu_open header .mob_menu_btn{
         display: none;

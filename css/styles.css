@@ -23,6 +23,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 *:before,
@@ -516,6 +517,7 @@ header .menu .item:hover>a::after {
 }
 .block {
     padding: 100px 0;
+    scroll-margin-top: 70px;
 }
 
 

@@ -16,7 +16,6 @@
     header .menu {
         position: fixed;
         z-index: 107;
-        top: 110px;
         right: 100%;
         display: flex;
         overflow: auto;

@@ -22,8 +22,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+    padding: 0; 
+    scroll-behavior: smooth;  
 }
 
 *:before,
@@ -45,6 +45,7 @@ body {
     -webkit-overflow-scrolling: touch;
     text-rendering: optimizeLegibility;
     text-decoration-skip: objects;
+
 }
 
 img {
@@ -218,6 +219,7 @@ body {
     min-height: -moz-available;
     min-height: -webkit-fill-available;
     min-height: fill-available;
+
 }
 
 

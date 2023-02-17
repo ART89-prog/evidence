@@ -18,7 +18,7 @@ $(() => {
     })
 
     $('header .close_btn, header .menu .item a, .overlay').click((e) => {
-        e.preventDefault()
+        // e.preventDefault()
 
         $('header .mob_menu_btn').removeClass('active')
         $('body').removeClass('menu_open')
